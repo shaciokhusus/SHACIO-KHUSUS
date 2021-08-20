@@ -43,18 +43,18 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
             text=message_ids_str,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
+                InlineKeyboardButton("Hapus Batch", callback_data="closeMessage")
             ]])
         )
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=asupanmantapp_{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
-            f"**Batch Files Stored in my Database!**\n\nHere is the Permanent Link of your files: {share_link} \n\n"
-            f"Just Click the link to get your files!",
+            f"**File Batch Disimpan di Database saya!**\n\nIni adalah Tautan Permanen file Anda: {share_link} \n\n"
+            f"Cukup Klik tautan untuk mendapatkan file Anda!",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Open Link", url=share_link)],
+                [[InlineKeyboardButton("Buka Link", url=share_link)],
                  [InlineKeyboardButton("Channel", url="https://t.me/makeyourscum"),
-                  InlineKeyboardButton(" Group", url="https://t.me/moansvibs")]]
+                  InlineKeyboardButton("Group", url="https://t.me/moansvibs")]]
             ),
             disable_web_page_preview=True
         )
@@ -65,7 +65,7 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Open Link", url=share_link)]])
         )
     except Exception as err:
-        await editable.edit(f"Something Went Wrong!\n\n**Error:** `{err}`")
+        await editable.edit(f"Ada yang salah!\n\n**Error:** `{err}`")
         await bot.send_message(
             chat_id=int(Config.LOG_CHANNEL),
             text=f"#ERROR_TRACEBACK:\nGot Error from `{str(editable.chat.id)}` !!\n\n**Traceback:** `{err}`",
@@ -88,11 +88,11 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
             parse_mode="Markdown", disable_web_page_preview=True)
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=asupanmantapp_{str_to_b64(file_er_id)}"
         await editable.edit(
-            f"**Your File Stored in my Database!**\n\nHere is the Permanent Link of your file: {share_link} \n\n"
-            f"Just Click the link to get your file!",
+            f"**File Anda Disimpan di Database saya!**\n\nIni Tautan Permanen file Anda: {share_link} \n\n"
+            f"Cukup Klik tautan untuk mendapatkan file Anda!",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Open Link", url=share_link)],
+                [[InlineKeyboardButton("Buka Link", url=share_link)],
                  [InlineKeyboardButton("Channel", url="https://t.me/makeyourscum"),
                   InlineKeyboardButton("Group", url="https://t.me/moansvibs")]]
             ),
