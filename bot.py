@@ -97,8 +97,8 @@ async def main(bot: Client, message: Message):
         await message.reply_text(
             text="**Choose an option from below:**",
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Save in Batch", callback_data="addToBatchTrue")],
-                [InlineKeyboardButton("Get Sharable Link", callback_data="addToBatchFalse")]
+                [InlineKeyboardButton("Simpan di Batch", callback_data="addToBatchTrue")],
+                [InlineKeyboardButton("Dapatkan Tautan", callback_data="addToBatchFalse")]
             ]),
             quote=True,
             disable_web_page_preview=True
@@ -344,12 +344,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             except UserNotParticipant:
                 invite_link = await bot.create_chat_invite_link(int(Config.UPDATES_CHANNEL))
                 await cmd.message.edit(
-                    text="**You Still Didn't Join ☹️, Please Join My Updates Channel to use this Bot!**\n\n"
-                         "Due to Overload, Only Channel Subscribers can use the Bot!",
+                    text="**Anda Masih Belum Bergabung , Silakan Bergabung dengan Channel Saya untuk menggunakan Bot ini!**\n\n"
+                         "**join dulu sayang, biar bisa nonton bareng sama mamih.**!",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("Join Dulu Sayang 🥵", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
@@ -373,7 +373,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("mGroup", url="https://t.me/moansvibs"),
+                        InlineKeyboardButton("Group", url="https://t.me/moansvibs"),
                         InlineKeyboardButton("Channel", url="https://t.me/makeyourscum")
                     ],
                     [
@@ -404,10 +404,10 @@ async def button(bot: Client, cmd: CallbackQuery):
         file_id = cmd.message.reply_to_message.message_id
         MediaList[f"{str(cmd.from_user.id)}"].append(file_id)
         await cmd.message.edit("File Saved in Batch!\n\n"
-                               "Press below button to get batch link.",
+                               "Tekan tombol di bawah ini untuk mendapatkan tautan batch.",
                                reply_markup=InlineKeyboardMarkup([
-                                   [InlineKeyboardButton("Get Batch Link", callback_data="getBatchLink")],
-                                   [InlineKeyboardButton("Close Message", callback_data="closeMessage")]
+                                   [InlineKeyboardButton("Dapatkan Tautan Batch", callback_data="getBatchLink")],
+                                   [InlineKeyboardButton("Tutup Pesan", callback_data="closeMessage")]
                                ]))
 
     elif "addToBatchFalse" in cb_data:
@@ -418,7 +418,7 @@ async def button(bot: Client, cmd: CallbackQuery):
         if message_ids is None:
             await cmd.answer("Batch List Empty!", show_alert=True)
             return
-        await cmd.message.edit("Please wait, generating batch link ...")
+        await cmd.message.edit("Harap tunggu, menghasilkan tautan batch ...")
         await SaveBatchMediaInChannel(bot=bot, editable=cmd.message, message_ids=message_ids)
         MediaList[f"{str(cmd.from_user.id)}"] = []
 
