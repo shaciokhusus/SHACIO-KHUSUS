@@ -22,7 +22,7 @@ class Config(object):
 This is Permanent Files Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+🤖 **My Name:** [Bot](https://t.me/{BOT_USERNAME})
 
 📝 **Language:** [Python3](https://www.python.org)
 
@@ -30,11 +30,9 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer:** @Xflicks
+🧑🏻‍💻 **Developer:** [Bella](https://t.me/moansvibs)
 
 👥 **Group:** [Gabung](https://t.me/moansvibs)
-
-📢 **Channel:** [Gabung](https://t.me/makeyourscum)
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** [Bella](https://t.me/bellapoyian)
