@@ -48,7 +48,7 @@ async def start(bot: Client, cmd: Message):
                 [
                     [
                         InlineKeyboardButton("Group", url="https://t.me/moansvibs"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Channel", url="https://t.me/makeyourscum")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -320,7 +320,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Group", url="https://t.me/moansvibs"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Channel", url="https://t.me/makeyourscum")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -374,7 +374,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("mGroup", url="https://t.me/moansvibs"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Channel", url="https://t.me/makeyourscum")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
