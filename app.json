@@ -7,30 +7,44 @@
         "store",
         "bot"
     ],
-    "repository": "https://github.com/AbirHasan2005/PyroFilesStoreBot",
-    "website": "https://telegram.dog/AbirHasan2005",
-    "success_url": "https://t.me/Discovery_Updates",
+    "repository": "https://github.com/FeriEXP/File_Bot",
+    "website": "https://telegram.dog/xflicks",
+    "success_url": "https://t.me/anossupport",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "required": true,
+            "value": ""
         },
         "API_HASH": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "required": true,
+            "value": ""
         },
         "BOT_TOKEN": {
             "description": "Get this from @BotFather XD"
+            "required": true,
+            "value": ""
         },
         "BOT_USERNAME": {
             "description": "Your Bot Username which you sent to @BotFather (Without [@])"
+            "required": true,
+            "value": ""
         },
         "DB_CHANNEL": {
             "description": "The Channel ID which will be used as Database. Example: -100123456789"
+            "required": true,
+            "value": ""
         },
         "BOT_OWNER": {
             "description": "Bot Owner UserID"
+            "required": true,
+            "value": "1669508271"
         },
         "DATABASE_URL": {
             "description": "MongoDB Database URI for Saving UserID for Broadcast."
+            "required": true,
+            "value": ""
         },
         "UPDATES_CHANNEL": {
             "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -100123456789",
@@ -49,11 +63,13 @@
         },
         "BROADCAST_AS_COPY": {
             "description": "Broadcast with Forward Tag or as Copy(Without Forward Tag). Value should be True/False !!",
-            "required": false
+            "required": true,
+            "value": "True"
         },
         "FORWARD_AS_COPY": {
             "description": "If True all messages will be forwarder As Copy. If False all messages will be forwarder with Forward Tag. Value should be True/False !!",
-            "required": false
+            "required": true,
+            "value": "True"
         }
     },
     "buildpacks": [
