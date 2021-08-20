@@ -37,14 +37,12 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 📢 **Channel:** [Gabung](https://t.me/makeyourscum)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @XFlicks
+🧑🏻‍💻 **Developer:** [Bella](https://t.me/bellapoyian)
 
-Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
-
-Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
+**join dulu sayang, biar bisa nonton bareng" sama mamih.**
 """
 	HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
 
-Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
+Kirimi saya file apa pun, saya akan memberi Anda Tautan yang Dapat Dibagikan secara permanen. Saya Mendukung Saluran Juga! **About Bot** Button.
 """
