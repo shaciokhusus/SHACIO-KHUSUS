@@ -281,8 +281,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Mami Bella",
-                                             url="https://t.me/bellapoyian")
+                        InlineKeyboardButton("Asupan",
+                                             url="https://t.me/makeyourscum")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -300,8 +300,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Mami Bella",
-                                             url="https://t.me/bellapoyian")
+                        InlineKeyboardButton("Asupan",
+                                             url="https://t.me/makeyourscum")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
