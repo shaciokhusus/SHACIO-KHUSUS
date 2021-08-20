@@ -37,7 +37,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** [Bella](https://t.me/bellapoyian)
 
-**join dulu sayang, biar bisa nonton bareng" sama mamih.**
+**join dulu sayang, biar bisa nonton bareng sama mamih.**
 """
 	HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
