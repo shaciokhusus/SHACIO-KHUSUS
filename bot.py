@@ -95,7 +95,7 @@ async def main(bot: Client, message: Message):
         if Config.OTHER_USERS_CAN_SAVE_FILE is False:
             return
         await message.reply_text(
-            text="**Choose an option from below:**",
+            text="**Pilih opsi dari bawah:**",
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("Simpan di Batch", callback_data="addToBatchTrue")],
                 [InlineKeyboardButton("Dapatkan Tautan", callback_data="addToBatchFalse")]
