@@ -41,5 +41,6 @@ Tambahkan saya ke saluran sebagai Admin dengan Izin Edit, saya akan menambahkan 
 """
 	HOME_TEXT = """
 Hai, [{}](tg://user?id={})\n\nSalam Sangek
+
 Kirimi saya file apa pun, saya akan memberi Anda Tautan yang Dapat Dibagikan secara permanen. Saya Mendukung Saluran Juga!
 """
