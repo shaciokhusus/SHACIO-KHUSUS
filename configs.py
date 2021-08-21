@@ -6,6 +6,8 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID"))
 	API_HASH = os.environ.get("API_HASH")
+        GROUP_SUPPORT = getenv("GROUP_SUPPORT", "AnosSupport")
+        UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "AnosUpdate")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL"))
