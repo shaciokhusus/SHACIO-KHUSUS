@@ -30,7 +30,7 @@ Tambahkan saya ke saluran sebagai Admin dengan Izin Edit, saya akan menambahkan 
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer:** [Bella](https://t.me/moansvibs)
+🧑🏻‍💻 **Developer:** [Feri](https://t.me/Xflicks)
 
 👥 **Group:** [Gabung](https://t.me/moansvibs)
 """
