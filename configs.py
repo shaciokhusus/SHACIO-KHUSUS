@@ -6,8 +6,6 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID"))
 	API_HASH = os.environ.get("API_HASH")
-        GROUP_SUPPORT = getenv("GROUP_SUPPORT", "AnosSupport")
-        UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "AnosUpdate")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL"))
@@ -42,7 +40,6 @@ Tambahkan saya ke saluran sebagai Admin dengan Izin Edit, saya akan menambahkan 
 **join dulu sayang, biar bisa nonton bareng sama mamih.**
 """
 	HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
-
-Kirimi saya file apa pun, saya akan memberi Anda Tautan yang Dapat Dibagikan secara permanen. Saya Mendukung Saluran Juga! **About Bot** Button.
+Hai, [{}](tg://user?id={})\n\nSalam Sangek
+Kirimi saya file apa pun, saya akan memberi Anda Tautan yang Dapat Dibagikan secara permanen. Saya Mendukung Saluran Juga!
 """
