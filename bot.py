@@ -48,7 +48,7 @@ async def start(bot: Client, cmd: Message):
                 [
                     [
                         InlineKeyboardButton("Group", url="https://t.me/melendirsini"),
-                        InlineKeyboardButton("Channel", url="https://t.me/lendirnikmat")
+                        InlineKeyboardButton("Channel", url="https://t.me/hanyalendir")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -282,7 +282,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Asupan",
-                                             url="https://t.me/lendirnikmat")
+                                             url="https://t.me/hanyalendir")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -301,7 +301,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Asupan",
-                                             url="https://t.me/lendirnikmat")
+                                             url="https://t.me/hanyalendir")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -320,7 +320,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Group", url="https://t.me/melendirsini"),
-                        InlineKeyboardButton("Channel", url="https://t.me/lendirnikmat")
+                        InlineKeyboardButton("Channel", url="https://t.me/hanyalendir")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -374,7 +374,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Group", url="https://t.me/melendirsini"),
-                        InlineKeyboardButton("Channel", url="https://t.me/lendirnikmat")
+                        InlineKeyboardButton("Channel", url="https://t.me/hanyalendir")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
