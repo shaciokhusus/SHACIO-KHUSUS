@@ -47,8 +47,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Group", url="https://t.me/moansvibs"),
-                        InlineKeyboardButton("Channel", url="https://t.me/makeyourscum")
+                        InlineKeyboardButton("Group", url="https://t.me/melendirsini"),
+                        InlineKeyboardButton("Channel", url="https://t.me/lendirnikmat")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -282,7 +282,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Asupan",
-                                             url="https://t.me/makeyourscum")
+                                             url="https://t.me/lendirnikmat")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -301,7 +301,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Asupan",
-                                             url="https://t.me/makeyourscum")
+                                             url="https://t.me/lendirnikmat")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -319,8 +319,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Group", url="https://t.me/moansvibs"),
-                        InlineKeyboardButton("Channel", url="https://t.me/makeyourscum")
+                        InlineKeyboardButton("Group", url="https://t.me/melendirsini"),
+                        InlineKeyboardButton("Channel", url="https://t.me/lendirnikmat")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -373,8 +373,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Group", url="https://t.me/moansvibs"),
-                        InlineKeyboardButton("Channel", url="https://t.me/makeyourscum")
+                        InlineKeyboardButton("Group", url="https://t.me/melendirsini"),
+                        InlineKeyboardButton("Channel", url="https://t.me/lendirnikmat")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
