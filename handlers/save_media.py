@@ -53,7 +53,7 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Buka Link", url=share_link)],
-                 [InlineKeyboardButton("Channel", url="https://t.me/melendirsini"),
+                 [InlineKeyboardButton("Channel", url="https://t.me/hanyalendir"),
                   InlineKeyboardButton("Group", url="https://t.me/lendirnikmat")]]
             ),
             disable_web_page_preview=True
@@ -93,7 +93,7 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Buka Link", url=share_link)],
-                 [InlineKeyboardButton("Channel", url="https://t.me/melendirsini"),
+                 [InlineKeyboardButton("Channel", url="https://t.me/hanyalendir"),
                   InlineKeyboardButton("Group", url="https://t.me/lendirnikmat")]]
             ),
             disable_web_page_preview=True
