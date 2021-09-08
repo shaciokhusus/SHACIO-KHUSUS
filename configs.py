@@ -34,7 +34,7 @@ Tambahkan saya ke saluran sebagai Admin dengan Izin Edit, saya akan menambahkan 
 
 👥 **Group:** [Gabung](https://t.me/moansvibs)
 """
-👥 **Channel:** [Gabung](https://t.me/makeyouscum)"""
+**Channel:** [Gabung](https://t.me/makeyouscum)"""
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** [Feri](https://t.me/Xflicks)
 
