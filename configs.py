@@ -22,6 +22,8 @@ class Config(object):
 Ini adalah Bot Toko Berkas Permanen! Kirimi saya file apa pun, saya akan menyimpannya di Database saya. Juga berfungsi untuk saluran.
 Tambahkan saya ke saluran sebagai Admin dengan Izin Edit, saya akan menambahkan Simpan File Unggahan di Saluran & tambahkan Tautan Tombol yang Dapat Dibagikan.
 
+👥 **Channel:** [Gabung](https://t.me/makeyouscum)
+"""
 🤖 **My Name:** [Bot](https://t.me/{BOT_USERNAME})
 
 📝 **Language:** [Python3](https://www.python.org)
